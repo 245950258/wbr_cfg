@@ -42,7 +42,7 @@ set history=200
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 colorscheme molokai
-"set guifont=Monospace\ Regular 
+"set guifont=Monospace\ Regular
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Scroll
@@ -71,6 +71,7 @@ set mouse=a
 set confirm
 set foldenable                                          "enable fold"
 set foldmethod=manual                                   "manual fold"
+set noshowmode
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/wbr/prj/date/20200509/vcs-rs-ldpc/wave/verdiLog'
+let g:netrw_dirhist_2='/home/wbr/riscv/zodiac/zodiac/src/main/scala/consts'
+let g:netrw_dirhist_3='/home/wbr/riscv/boom-template/boom/src/main/scala/exu/register-read'
+let g:netrw_dirhist_4='/home/wbr/riscv/boom-template/boom/src/main/scala'
+let g:netrw_dirhist_5='/home/wbr/riscv/zodiac/zodiac/src/main/scala/subsystem'
+let g:netrw_dirhist_6='/home/wbr/riscv/zodiac/zodiac/src/main/scala'
+let g:netrw_dirhist_7='/home/wbr/riscv/wbr-boom/rocket-chip/src/main'
+let g:netrw_dirhist_8='/home/wbr/back'
+let g:netrw_dirhist_9='/home/wbr/.vim/plugin'
