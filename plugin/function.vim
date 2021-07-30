@@ -29,9 +29,6 @@ endfunc
 nnoremap gci :<C-U>call AddCommentHeader(v:count)<CR>
 nnoremap gco :<C-U>call AddCommentContinuity(v:count)<CR>
 
-" 生成文件名和当前时间
-autocmd BufNewFile * normal G
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Add Comments End
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -48,3 +48,8 @@ nmap <Leader>WQ :wa<CR>:q<CR>
 " 不做任何保存，直接退出 vim
 nmap <Leader>Q :qa!<CR>
 " 依次遍历子窗口
+nnoremap pwd :pwd<CR>
+nnoremap ls  :ls<CR>
+
+" 生成文件名和当前时间
+map <F2> a<C-R>=strftime("%c")<CR><Esc>

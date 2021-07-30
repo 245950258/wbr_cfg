@@ -52,3 +52,5 @@ if has("autocmd")
 	" Clear all spaces before <Enter> before save files
 	autocmd BufWritePre * :%s/\s\+$//e
 endif
+
+autocmd BufNewFile * normal G
