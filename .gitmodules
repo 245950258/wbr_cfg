@@ -1,3 +1,6 @@
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "other_cfg/my-git-bash"]
+	path = other_cfg/my-git-bash
+	url = https://github.com/xnng/my-git-bash.git
