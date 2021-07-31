@@ -47,9 +47,40 @@ nmap <Leader>w :w<CR>
 nmap <Leader>WQ :wa<CR>:q<CR>
 " 不做任何保存，直接退出 vim
 nmap <Leader>Q :qa!<CR>
+
+" 映射全选和复制 ctrl+a
+map <C-A> ggVGY
+map! <C-A> <Esc>ggVGY
+"map <F12> gg=G
+" 选中状态下ctrl+c复制
+vmap <C-c> "*y
+
 " 依次遍历子窗口
 nnoremap pwd :pwd<CR>
 nnoremap ls  :ls<CR>
 
+" 映射切换buffer的键位
+nmap <C-Tab> :bp<CR>
+nmap <C-s-Tab> :bn<CR>
+
 " 生成文件名和当前时间
 map <F2> a<C-R>=strftime("%c")<CR><Esc>
+
+" " tab or buf 1
+" nnoremap <leader>1 :call Tab_buf_switch(1)<cr>
+" " Tab or buf 2
+" nnoremap <leader>2 :call Tab_buf_switch(2)<cr>
+" " Tab or buf 3
+" nnoremap  <leader>3 :call Tab_buf_switch(3)<cr>
+" " Tab or buf 4
+" nnoremap  <leader>4 :call Tab_buf_switch(4)<cr>
+" " Tab or buf 5
+" nnoremap  <leader>5 :call Tab_buf_switch(5)<cr>
+" " Tab or buf 6
+" nnoremap  <leader>6 :call Tab_buf_switch(6)<cr>
+" " Tab or buf 7
+" nnoremap  <leader>7 :call Tab_buf_switch(7)<cr>
+" " Tab or buf 8
+" nnoremap  <leader>8 :call Tab_buf_switch(8)<cr>
+" " Tab or buf 9
+" nnoremap  <leader>9 :call Tab_buf_switch(9)<cr>
