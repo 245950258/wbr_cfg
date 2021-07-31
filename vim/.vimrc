@@ -33,7 +33,6 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 " vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
 call vundle#begin()
-	Plugin 'VundleVim/Vundle.vim'
   Plugin 'zhuzhzh/verilog_emacsauto.vim'
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
