@@ -44,6 +44,8 @@ call vundle#begin()
   Plugin 'Xuyuanp/nerdtree-git-plugin'  " display git status within Nerdtree
   Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' " enhance devicons
 	Plugin 'tomtom/tcomment_vim'
+	Plugin 'mhinz/vim-startify'
+	Plugin 'Yggdroot/indentLine'
 	"Plugin 'preservim/nerdcommenter'
   "Plugin 'preservim/tagbar' "
 	"Plugin 'MarcWeber/vim-addon-mw-utils'
