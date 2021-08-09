@@ -46,6 +46,9 @@ call vundle#begin()
 	Plugin 'tomtom/tcomment_vim'
 	Plugin 'mhinz/vim-startify'
 	Plugin 'Yggdroot/indentLine'
+	Plugin 'tomasr/molokai'
+	Plugin 'joshdick/onedark.vim'
+	Plugin 'morhetz/gruvbox'
 	"Plugin 'preservim/nerdcommenter'
   "Plugin 'preservim/tagbar' "
 	"Plugin 'MarcWeber/vim-addon-mw-utils'
