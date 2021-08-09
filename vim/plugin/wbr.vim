@@ -42,6 +42,9 @@ set history=200
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 colorscheme molokai
+" colorscheme onedark
+" colorscheme gruvbox
+" set bg=dark
 "set guifont=Monospace\ Regular
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
