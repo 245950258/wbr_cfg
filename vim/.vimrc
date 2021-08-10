@@ -49,6 +49,7 @@ call vundle#begin()
 	Plugin 'tomasr/molokai'
 	Plugin 'joshdick/onedark.vim'
 	Plugin 'morhetz/gruvbox'
+	Plugin 'tpope/vim-fugitive'
 	"Plugin 'preservim/nerdcommenter'
   "Plugin 'preservim/tagbar' "
 	"Plugin 'MarcWeber/vim-addon-mw-utils'

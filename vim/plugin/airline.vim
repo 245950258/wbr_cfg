@@ -3,12 +3,30 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set guifont=DroidSansMono\ Nerd\ Font\ Mono\ Italic\ 12
 
-let g:airline#extensions#tabline#formatter = 'default'
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#enabled = 1
-" let g:airline_theme='molokai'
-let g:airline_theme='onedark'
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:airline_symbols.linenr                   = ''
+let g:airline_symbols.maxlinenr                = ' '
+let w:airline_skip_empty_sections              = 1
+let g:airline_section_b                        = '%{fugitive#head()}'
+let g:airline_section_c                        = ''
+let g:airline_section_x                        = '%{&filetype}'
+let g:airline_section_warning                  = ''
+let g:airline#extensions#tabline#enabled       = 1
+let g:airline#extensions#tabline#fnamemod      = ':~'
+let g:airline#extensions#tabline#fnamecollapse = 0
+let g:airline#extensions#branch#enabled              = 1
+let g:airline#extensions#branch#displayed_head_limit = 10
+" let g:airline_theme                           = 'molokai'
+let g:airline_theme                           = 'onedark'
+
+" let g:airline#extensions#tabline#formatter    = 'default'
+" let g:airline#extensions#tabline#left_sep     = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '|'
+" let g:airline#extensions#tabline#enabled      = 1
+" let g:airline#extensions#branch#enabled       = 1
 " let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 
 " let g:airline#extensions#tabline#enabled = 1
