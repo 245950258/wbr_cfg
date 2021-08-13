@@ -5,7 +5,7 @@
 	path = other_cfg/my-git-bash
 	url = https://github.com/xnng/my-git-bash.git
 [submodule "other_cfg/.tmux"]
-	path = other_cfg/.tmux
+	path = other_cfg/tmux_cfg
 	url = https://github.com/gpakosz/.tmux.git
 [submodule "tmux/tpm"]
 	path = tmux/tpm
