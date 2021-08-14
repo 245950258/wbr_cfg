@@ -57,3 +57,15 @@ toilet -f Big -w 70 'Welcome              WuBingRui' | boxes -d cat -a hc -p h8 
 # Set End
 #***************************************************************************
 
+#**************************************************************************
+# Source Set
+#**************************************************************************
+source  /opt/env/riscv.bashrc
+source  /opt/env/synopsys.bashrc
+source  /opt/env/cadence.bashrc
+source  /opt/env/mentor.bashrc
+source  /opt/env/uvm.bashrc
+source  /opt/env/function.bashrc
+#**************************************************************************
+# Source End
+#**************************************************************************
