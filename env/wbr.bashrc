@@ -5,7 +5,6 @@
 set -o vi
 alias k='klayout'
 alias g='gvim'
-alias lf='ls | sed "s:^:`pwd`/:"'
 alias r='cd ~/riscv'
 alias c="cd ~/chisel"
 alias v="cd ~/vcs-simu"
@@ -16,7 +15,8 @@ alias x='p=$(pwd);gnome-terminal --window;cd $p'
 alias g='gvim --remote-tab-silent'
 alias gdiff='gvimdiff'
 alias tnew='tmux new -s'
-alias ls='ls -lF'
+alias ls='ls --color=auto'
+alias lf='ls | sed "s:^:`pwd`/:"'
 alias ll='ls -lFrt'
 alias la='ls -LaF'
 alias cp='cp -r'
