@@ -24,23 +24,23 @@
     		" Close NERDTree when there's no other windows
         autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
     " Customize icons on Nerdtree
-    "     let g:NERDTreeDirArrowExpandable = '▸'
-    "     let g:NERDTreeDirArrowCollapsible = '▾'
-    "
-    " ">> NERDTREE-GIT
-    "     " Special characters
-    " let g:NERDTreeGitStatusIndicatorMapCustom = {
-    "     \ "Modified"  : "✹",
-    "     \ "Staged"    : "✚",
-    "     \ "Untracked" : "✭",
-    "     \ "Renamed"   : "➜",
-    "     \ "Unmerged"  : "═",
-    "     \ "Deleted"   : "✖",
-    "     \ "Dirty"     : "✗",
-    "     \ "Clean"     : "✔︎",
-    "     \ 'Ignored'   : '☒',
-    "     \ "Unknown"   : "?"
-    " \ }
+        let g:NERDTreeDirArrowExpandable = '▸'
+        let g:NERDTreeDirArrowCollapsible = '▾'
+
+    ">> NERDTREE-GIT
+        " Special characters
+    let g:NERDTreeGitStatusIndicatorMapCustom = {
+        \ "Modified"  : "✹",
+        \ "Staged"    : "✚",
+        \ "Untracked" : "✭",
+        \ "Renamed"   : "➜",
+        \ "Unmerged"  : "═",
+        \ "Deleted"   : "✖",
+        \ "Dirty"     : "✗",
+        \ "Clean"     : "✔︎",
+        \ 'Ignored'   : '☒',
+        \ "Unknown"   : "?"
+    \ }
 
     ">> NERDTree-Tabs
         "let g:nerdtree_tabs_open_on_console_startup=1 "Auto-open Nerdtree-tabs on VIM enter
