@@ -22,7 +22,7 @@ let g:indentLine_color_dark = 1 " (default: 2)
 " let g:indentLine_char = 'c'
 
 " You can also use one of ¦, ┆, │, ⎸, or ▏ to display more beautiful lines.
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 " let g:indentLine_concealcursor = 'inc'
 " let g:indentLine_conceallevel = 2
