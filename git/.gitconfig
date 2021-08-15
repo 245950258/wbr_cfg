@@ -9,5 +9,6 @@
 	helper = store
 # 	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
 # 	git config --global credential.helper store
+# 	git config --global --unset credential.helper
 # 	git credential-manager uninstall
 # 	git config --list
