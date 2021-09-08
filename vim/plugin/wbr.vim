@@ -57,6 +57,8 @@ set scrolloff=3
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set ts=2
 set tabstop=2
+set nocompatible
+set backspace=indent,eol,start
 "set softtabstop=2
 "set shiftwidth=2
 "set expandtab
