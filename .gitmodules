@@ -46,3 +46,9 @@
 [submodule "vim/bundle/Align"]
 	path = vim/bundle/Align
 	url = https://github.com/vim-scripts/Align.git
+[submodule "vim/bundle/verilog_emacsauto.vim"]
+	path = vim/bundle/verilog_emacsauto.vim
+	url = https://github.com/vim-scripts/verilog_emacsauto.vim.git
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
