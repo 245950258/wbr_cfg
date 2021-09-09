@@ -73,3 +73,6 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/bundle/vim-startuptime"]
+	path = vim/bundle/vim-startuptime
+	url = https://github.com/dstein64/vim-startuptime.git
