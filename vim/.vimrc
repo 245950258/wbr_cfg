@@ -51,6 +51,7 @@ call vundle#begin()
 	Plugin 'joshdick/onedark.vim'
 	Plugin 'morhetz/gruvbox'
 	Plugin 'tpope/vim-fugitive'
+	Plugin 'uguu-org/vim-matrix-screensaver'
 	"Plugin 'preservim/nerdcommenter'
   "Plugin 'preservim/tagbar' "
 	"Plugin 'MarcWeber/vim-addon-mw-utils'

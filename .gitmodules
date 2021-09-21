@@ -76,3 +76,6 @@
 [submodule "vim/bundle/vim-startuptime"]
 	path = vim/bundle/vim-startuptime
 	url = https://github.com/dstein64/vim-startuptime.git
+[submodule "vim/bundle/vim-matrix-screensaver"]
+	path = vim/bundle/vim-matrix-screensaver
+	url = https://github.com/uguu-org/vim-matrix-screensaver.git
