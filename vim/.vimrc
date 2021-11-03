@@ -52,6 +52,7 @@ call vundle#begin()
 	Plugin 'morhetz/gruvbox'
 	Plugin 'tpope/vim-fugitive'
 	Plugin 'uguu-org/vim-matrix-screensaver'
+	Plugin 'junegunn/vim-easy-align'
 	"Plugin 'preservim/nerdcommenter'
   "Plugin 'preservim/tagbar' "
 	"Plugin 'MarcWeber/vim-addon-mw-utils'

@@ -30,7 +30,7 @@ alias netrestart='sudo service network-manager restart'
 export HISTTIMEFORMAT='%F %T '
 alias cd='cdls'
 
-cdls() { \cd "$@" && la; }
+cdls() { \cd "$@" && ll; }
 
 #***************************************************************************
 # Set Git Config Begin

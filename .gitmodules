@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-matrix-screensaver"]
 	path = vim/bundle/vim-matrix-screensaver
 	url = https://github.com/uguu-org/vim-matrix-screensaver.git
+[submodule "vim/bundle/vim-easy-align"]
+	path = vim/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git

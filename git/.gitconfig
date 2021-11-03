@@ -3,6 +3,7 @@
 	email = 48277384+245950258@users.noreply.github.com
 [http]
 	postBuffer = 52428800
+	sslVerify = false
 [url "https://github.com.cnpmjs.org/"]
 	insteadOf = https://github.com/
 [credential]
