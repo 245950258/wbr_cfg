@@ -82,6 +82,3 @@
 [submodule "vim/bundle/vim-easy-align"]
 	path = vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
-[submodule "font/nerd-fonts"]
-	path = font/nerd-fonts
-	url = https://github.com/ryanoasis/nerd-fonts
