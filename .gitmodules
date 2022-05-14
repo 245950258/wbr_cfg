@@ -14,7 +14,7 @@
 	path = vim/bundle/ex-autocomplpop
 	url = https://github.com/exvim/ex-autocomplpop.git
 [submodule "font/fonts"]
-	path = font/fonts
+	path = font/powerline_fonts
 	url = https://github.com/powerline/fonts.git
 [submodule "vim/bundle/gruvbox"]
 	path = vim/bundle/gruvbox
