@@ -2,14 +2,11 @@
 # Synopsys Set
 #*******************************************************************************
 
-<<<<<<< HEAD
 export SNPSYS_HOME=/opt/tools/synopsys
 export VERDI_HOME=$SNPSYS_HOME/verdi/verdi_N-2017.12
 export LD_LIBRARY_PATH=$VERDI_HOME/share/PLI/VCS/LINUX64
 export SCL_HOME=$SNPSYS_HOME/scl/amd64
 export VCS_HOME=$SNPSYS_HOME/vcs/vcs_vO-2018.09-SP2
-# export VCS_HOME=$SNPSYS_HOME/vcs/vcs_vM-2017.03
-=======
 export SNPSYS_HOME=/opt/synopsys
 export VERDI_HOME=$SNPSYS_HOME/verdi/verdi-2018.9-sp2
 export LD_LIBRARY_PATH=$VERDI_HOME/share/PLI/VCS/LINUX64
