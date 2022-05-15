@@ -13,9 +13,6 @@
 [submodule "vim/bundle/ex-autocomplpop"]
 	path = vim/bundle/ex-autocomplpop
 	url = https://github.com/exvim/ex-autocomplpop.git
-[submodule "font/fonts"]
-	path = font/fonts
-	url = https://github.com/powerline/fonts.git
 [submodule "vim/bundle/gruvbox"]
 	path = vim/bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
@@ -82,3 +79,9 @@
 [submodule "vim/bundle/vim-easy-align"]
 	path = vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "font/fonts"]
+	path = font/powerline
+	url = https://github.com/powerline/fonts.git
+[submodule "font/figlet-fonts"]
+	path = font/figlet-fonts
+	url = https://github.com/xero/figlet-fonts.git

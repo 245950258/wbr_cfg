@@ -22,7 +22,7 @@ endif
 
 if has("autocmd")
 	" Clear all spaces before <Enter> before save files
-	autocmd BufWritePre * :%s/\s\+$//e
+	" autocmd BufWritePre * :%s/\s\+$//e
 	" Make views automatic
 	autocmd BufWinLeave *. mkview
  	autocmd BufWinEnter *. silent loadview

@@ -2,18 +2,18 @@
 # RISCV Set
 #*******************************************************************************
 
-export ANT_HOME="/opt/apache-ant"
-export MVN_HOME="/opt/apache-maven"
-export GRADLE_HOME="/opt/gradle"
-export JAVA_HOME="/opt/java/jdk1.8.0_201"
-export JRE_HOME="/opt/java/jdk1.8.0_201/jre"
-export SCALA_HOME="/opt/scala"
-export SBT_HOME="/opt/sbt"
+export ANT_HOME="/opt/tools/apache-ant/apache-ant-1.10.5"
+export MVN_HOME="/opt/tools/apache-maven/apache-maven-3.6.0"
+export GRADLE_HOME="/opt/tools/gradle/gradle-5.0"
+export JAVA_HOME="/opt/tools/java/jdk1.8.0_201"
+export JRE_HOME="/opt/tools/java/jdk1.8.0_201/jre"
+export SCALA_HOME="/opt/tools/scala"
+export SBT_HOME="/opt/tools/sbt"
 export RISCV_TESTS="/home/wbr/riscv/riscv-tests"
 #export RISCV="/opt/riscv/riscv-tools-embed"
-export RISCV="/opt/riscv/riscv-tools"
+export RISCV="/opt/tools/riscv/riscv-tools"
 export INSTALLED_VERILATOR="/usr/local/bin/verilator"
-export FREEDOMSTUDIO=/opt/freedomstudio
+export FREEDOMSTUDIO="/opt/tools/freedomstudio"
 
 function fs {
   FreedomStudio "$@" &
