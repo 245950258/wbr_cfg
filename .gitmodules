@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-easy-align"]
 	path = vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "font/fonts"]
+	path = font/fonts
+	url = https://github.com/powerline/fonts.git
