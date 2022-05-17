@@ -2,7 +2,7 @@
 	name = 245950258
 	email = 48277384+245950258@users.noreply.github.com
 [http]
-	postBuffer = 52428800
+	postBuffer = 1048576000
 	sslVerify = false
 	proxy = socks5://127.0.0.1:7891
 # [url "https://github.com.cnpmjs.org/"]
