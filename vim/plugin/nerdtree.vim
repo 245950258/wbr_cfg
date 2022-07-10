@@ -8,12 +8,14 @@
 
     ">> UI settings
         let NERDTreeQuitOnOpen=1   " Close NERDtree when files was opened
-        let NERDTreeMinimalUI=1    " Start NERDTree in minimal UI mode (No help lines)
+        " let NERDTreeMinimalUI=1    " Start NERDTree in minimal UI mode (No help lines)
         let NERDTreeDirArrows=1    " Display arrows instead of ascii art in NERDTree
         let NERDTreeChDirMode=2    " Change current working directory based on root directory in NERDTree
         let g:NERDTreeHidden=1     " Don't show hidden files
         let NERDTreeWinSize=30     " Initial NERDTree width
         let NERDTreeAutoDeleteBuffer = 1  " Auto delete buffer deleted with NerdTree
+				let NERDTreeAutoCenter=1
+				let NERDTreeMouseMode=2
         "let NERDTreeShowBookmarks=0   " Show NERDTree bookmarks
         let NERDTreeIgnore = ['\.pyc$', '\.swp', '\.swo', '__pycache__']   " Hide temp files in NERDTree
         "let g:NERDTreeShowLineNumbers=1  " Show Line Number
