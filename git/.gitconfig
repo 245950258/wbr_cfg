@@ -16,3 +16,7 @@
 # 	git config --list
 [https]
 	proxy = socks5://127.0.0.1:7891
+[safe]
+	directory = /data/wbr/riscv/chipyard
+[core]
+	compression = -1
