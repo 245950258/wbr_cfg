@@ -9,7 +9,6 @@ alias r='cd ~/riscv'
 alias c="cd ~/chisel"
 alias v="cd ~/vcs-simu"
 alias e='gnome-terminal'
-alias ev='evince'
 #alias w='xrandr --size 1600x1200'
 alias x='p=$(pwd);gnome-terminal --window;cd $p'
 alias g='gvim --remote-tab-silent'
@@ -32,6 +31,10 @@ alias cd='cdls'
 
 cdls() { \cd "$@" && ll; }
 
+function ev {
+  evince "$@" &
+}
+
 #***************************************************************************
 # Set Git Config Begin
 #***************************************************************************
@@ -53,6 +56,7 @@ export PS1="\[$(tput bold)\]\[\033[38;5;1m\]o(〃\[\033[38;5;11m\]＾▽＾\[\03
 #***************************************************************************
 
 toilet -f Big -w 70 'Welcome              WuBingRui' | boxes -d cat -a hc -p h8 | lolcat
+#toilet -f Big -w 70 'Welcome                    Longxin' | boxes -d cat -a hc -p h8 | lolcat
 ascii-image-converter /home/wbr/800x_100_w-61a617165c7e8.jpg -C 
 #***************************************************************************
 # Set End
@@ -61,6 +65,7 @@ ascii-image-converter /home/wbr/800x_100_w-61a617165c7e8.jpg -C
 #**************************************************************************
 # Source Set
 #**************************************************************************
+source  /opt/env/software.bashrc
 source  /opt/env/riscv.bashrc
 source  /opt/env/synopsys.bashrc
 source  /opt/env/cadence.bashrc
