@@ -62,6 +62,8 @@ ascii-image-converter /home/wbr/800x_100_w-61a617165c7e8.jpg -C
 # Set End
 #***************************************************************************
 
+export LIB_HOME="/opt/lib.eda"
+
 #**************************************************************************
 # Source Set
 #**************************************************************************
@@ -72,6 +74,7 @@ source  /opt/env/cadence.bashrc
 source  /opt/env/mentor.bashrc
 source  /opt/env/uvm.bashrc
 source  /opt/env/function.bashrc
+source  /opt/env/modules.bashrc
 #**************************************************************************
 # Source End
 #**************************************************************************

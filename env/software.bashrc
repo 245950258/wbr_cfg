@@ -2,10 +2,11 @@
 # Software Set
 #*******************************************************************************
 
-export TCL_HOME="/opt/tools/software/tcl/tcl8.6.13"
+export SOFTWARE_HOME="/opt/tools/software"
+
 export MODULE_HOME="/opt/tools/software/modules/modules-5.2.0"
 
-export PATH=$PATH:$TCL_HOME/bin:$MODULE_HOME/bin
+export PATH=$PATH:$MODULE_HOME/bin
 
 #*******************************************************************************
 # Software End

@@ -1,0 +1,49 @@
+#%Module 1.0
+#
+#Edited by Wu Bingrui in  2023/2/5
+#Modified by Wu Bingrui one day in the future
+#
+#
+#conflict               
+
+set SOFTWARE_HOME $env(SOFTWARE_HOME)
+
+set home_path   "$SOFTWARE_HOME/scala/scala-2.12.8"
+
+set module_name [module-info name]
+set n [string last / $module_name]
+if {$n >= 0} {
+	set software_name [string range $module_name 0 $n-1]
+} else {
+	set software_name $module_name
+}
+
+set env_name SCALA_HOME
+
+if {[module-info mode load]} {
+	if {[info exists ::env($env_name)]} {
+		if {![string equal $home_path $env($env_name)]} {
+			module unload $software_name
+		}
+	}
+}
+
+proc ModulesHelp { } {
+	global version prefix
+	global module_name prefix
+	global software_name prefix
+
+	puts stderr "\t$module_name - loads the $software_name software & application environment"
+	puts stderr "\tThis module file will add $module_name to the"
+	puts stderr "\tlist of directories that the module command will search"
+	puts stderr "\tfor modules.  Place your own module files here."
+	puts stderr "\n\tVersion $version\n"
+}
+
+module-whatis   "loads scala-2.12.8 environment"
+
+set	version			2.12.8
+
+setenv 					SCALA_HOME $home_path
+prepend-path    PATH       $home_path/bin
+####
