@@ -2,12 +2,40 @@
 #| **** Modules Begin **** |
 #+----------------------------------------------------+
 
+function m {
+	module "$@"
+}
+
 function ma {
 	module load "$@"
 }
 
 function mav {
 	module avail "$@"
+}
+
+function mi {
+	module display "$@"
+}
+
+function mw {
+	module whatis "$@"
+}
+
+function mr {
+	module rm "$@"
+}
+
+function mlist {
+	module list
+}
+
+function mc {
+	module purge
+}
+
+function mh {
+	module help
 }
 #+----------------------------------------------------+
 #| **** Let's load enviroment **** |
