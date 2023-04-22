@@ -7,9 +7,6 @@
 [submodule "other_cfg/.tmux"]
 	path = other_cfg/tmux_cfg
 	url = https://github.com/gpakosz/.tmux.git
-[submodule "tmux/tpm"]
-	path = tmux/tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "vim/bundle/ex-autocomplpop"]
 	path = vim/bundle/ex-autocomplpop
 	url = https://github.com/exvim/ex-autocomplpop.git
