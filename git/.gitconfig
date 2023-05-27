@@ -20,3 +20,5 @@
 	directory = /data/wbr/riscv/chipyard
 [core]
 	compression = -1
+	autocrlf = input
+	safecrlf = true
