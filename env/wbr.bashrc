@@ -44,7 +44,7 @@ alias glist='git config --global --list'
 alias glog='git log --oneline --graph'
 
 if [ -f ~/.git-prompt.sh ]; then
-    source ~/.git-prompt.sh
+	source ~/.git-prompt.sh
 fi
 #***************************************************************************
 # Set Git Config End
