@@ -42,6 +42,10 @@ alias gset='git config --global url."https://hub.fastgit.org".insteadOf https://
 alias grm='git config --global --unset url.https://hub.fastgit.org.insteadof'
 alias glist='git config --global --list'
 alias glog='git log --oneline --graph'
+
+if [ -f ~/.git-prompt.sh ]; then
+    source ~/.git-prompt.sh
+fi
 #***************************************************************************
 # Set Git Config End
 #***************************************************************************
