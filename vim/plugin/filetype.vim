@@ -7,6 +7,9 @@ autocmd BufNewFile *.sv    exec ":call SVTitle()"
 autocmd BufNewFile *.scala exec ":call SCTitle()"
 autocmd BufNewFile *.c     exec ":call CTitle()"
 autocmd BufNewFile *.java  exec ":call JAVATitle()"
+autocmd Filetype json
+  \ let g:indentLine_setConceal = 0 |
+  \ let g:vim_json_syntax_conceal = 0
 
 func VTitle()
   if (&filetype == 'verilog')
