@@ -61,7 +61,7 @@ set ts=2
 set tabstop=2
 "set softtabstop=2
 "set shiftwidth=2
-"set expandtab
+set expandtab
 "set lines=35
 "set columns=98
 
