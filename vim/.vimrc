@@ -37,7 +37,6 @@ call vundle#begin()
   Plugin 'zhuzhzh/verilog_emacsauto.vim'
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
-	Plugin 'Align'
 	Plugin 'exvim/ex-autocomplpop'
 	Plugin 'scrooloose/nerdtree'          " File tree manager
 	Plugin 'jistr/vim-nerdtree-tabs'      " enhance nerdtree's tabs
