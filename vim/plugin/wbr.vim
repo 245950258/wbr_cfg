@@ -47,7 +47,7 @@ colorscheme molokai
 " colorscheme onedark
 " colorscheme gruvbox
 " set bg=dark
-"set guifont=Monospace\ Regular
+set guifont=Hack\ Nerd\ Font\ Mono\ Bold\ Italic
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Scroll
